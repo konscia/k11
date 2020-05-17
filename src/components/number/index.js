@@ -16,8 +16,8 @@ let reduce9Digits = function (value) {
 
 export default function Number(props) {
   return (
-    <span>
-      {props.number} / {reduce9Digits(props.number)}
-    </span>
+    <div class={'number ' + props.type} title={'Origem: ' + props.number}>
+       {reduce9Digits(props.number)}
+    </div>
   )
 }

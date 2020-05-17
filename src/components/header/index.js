@@ -6,7 +6,7 @@ const Header = () => (
 	<header class={style.header}>
 		<h1>K11 | Numerologia</h1>
 		<nav>
-			<Link activeClassName={style.active} href="/">Teste</Link>
+			<Link activeClassName={style.active} href="/">Principal</Link>
 			<Link activeClassName={style.active} href="/sobre">Sobre</Link>
 		</nav>
 	</header>

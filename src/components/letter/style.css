@@ -1,11 +1,11 @@
 .letter {
   font-family: monospace;
-  size: 32px;
+  font-size: 14px;
   text-transform: uppercase;
   background: #F4F4AA;
   border-radius: 3px;
   float: left;
-  margin: 5px 5px 0 0;
+  margin: 5px 10px 0 0;
   padding: 5px 10px;
 }
 

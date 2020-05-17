@@ -24,3 +24,132 @@ section.page {
 	min-height: 100%;
 	width: 100%;
 }
+
+.row {
+  float: left;
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  margin-right: 3%;
+}
+
+@media only screen and (max-width: 768px) {
+  .column {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+}
+
+.words {
+}
+
+.word {
+  float: left;
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.letters {
+  float: left;
+  display: block;
+  width: 100%;
+}
+
+.word-result {
+  margin-top: 5px;
+  float: left;
+  display: block;
+  width: 100%;
+}
+
+.summary {}
+
+.summary ul {
+  list-style: none;
+  font-size: 17px;
+  line-height: 32px;
+  text-align: right;
+}
+
+.summary li {
+  display: block;
+  height: 32px;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.summary strong {
+  display: block;
+  margin-right: 5px;
+  float: left;
+  width: 24px;
+  height: 100%;
+  text-align: center;
+  background-color: #ddd;
+}
+
+.summary span {
+  display: block;
+  float: left;
+  height: 100%;
+  background-color: #673AB7;
+  transition: width 0.4s;
+}
+
+.number {
+  display: block;
+  float: left;
+  margin-right: 20px;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 36px;
+  background-color: #ddd;
+  border: 2px solid #aaa;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.number.vowel {
+  background-color: #BDA1D8;
+  border-color: #9370B5;
+}
+
+.number.consonants {
+  background-color: #A0B8D6;
+  border-color: #6D8CB1;
+}
+
+.number.total {
+  background-color: #ACA6DB;
+  border-color: #7E77BA;
+}
+
+.totals {
+  text-align: center;
+}
+
+.totals .number {
+  float: none;
+  margin: 20px auto 40px;
+  height: 80px;
+  width: 80px;
+  border-radius: 40px;
+  text-align: center;
+  line-height: 72px;
+  border-width: 4px;
+  font-size: 32px;
+}
