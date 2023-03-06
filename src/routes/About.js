@@ -22,7 +22,7 @@ export default function About() {
       <p>Ainda não. Se for importante para você, me avise.</p>
 
       <p>
-        <strong>Contato</strong>: contato@konscia.floripa.br<br />
+        <strong>Contato</strong>: kaleu@konscia.me<br />
         <br />
         Kaléu Puskas
       </p>
