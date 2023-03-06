@@ -2,8 +2,5 @@ node_modules
 /*.log
 *.lock
 /.idea
-build/
-!build/.keep
-
-
+build
 package-lock.json
